@@ -1,7 +1,7 @@
 #include "Mago.h"
 
 Mago::Mago()
-// Exemplo de inicialização junto à assinatura do método
+    // Exemplo de inicialização junto à assinatura do método
     //:nome(""),idade(0),escolaDeMagia("")
 {
     // Inicialização comum (escolher uma das duas)
@@ -10,6 +10,13 @@ Mago::Mago()
     escolaDeMagia="";
 
     cout << "Mago criado com o construtor padrão!" << endl;
+}
+
+Mago::Mago(string nome, int idade, string escolaDeMagia)
+{
+    this->nome = nome;
+    this->idade = idade;
+    this->escolaDeMagia = escolaDeMagia;
 }
 
 Mago::~Mago()

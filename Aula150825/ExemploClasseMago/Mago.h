@@ -15,6 +15,9 @@ class Mago {
         // Construtor padrão
         Mago();
 
+        // Construtor com parametros  
+        Mago(string nome, int idade, string escolaDeMagia);
+
         // Destrutor
         ~Mago();
 
