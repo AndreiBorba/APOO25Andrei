@@ -1,2 +1,2 @@
 Buildando: g++ main.cpp Mago.cpp -o main
-Criando o executável: .\main.exe
+Criando/executando o executável: .\main.exe

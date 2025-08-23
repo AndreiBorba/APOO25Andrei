@@ -24,6 +24,36 @@ Mago::~Mago()
     cout << "Deixou de existir!" << endl;
 }
 
+void Mago::setNome(string n)
+{
+    this->nome = n;
+}
+
+void Mago::setIdade(int i)
+{
+    this->idade = i;
+}
+
+void Mago::setEscolaDeMagia(string e)
+{
+    this->escolaDeMagia = e;
+}
+
+string Mago::getNome()
+{
+    return nome;
+}
+
+int Mago::getIdade()
+{
+    return idade;
+}
+
+string Mago::getEscolaDeMagia()
+{
+    return escolaDeMagia;
+}
+
 void Mago::andar()
 {
     cout << "Estou andando!" << endl;
