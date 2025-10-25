@@ -13,10 +13,4 @@ class MagoBranco: public Mago{
 
 };
 
-
-
-
-
-
-
 #endif
