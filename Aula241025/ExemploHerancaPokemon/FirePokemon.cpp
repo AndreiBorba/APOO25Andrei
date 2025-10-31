@@ -2,7 +2,6 @@
 
 FirePokemon::FirePokemon(string name, int index) : Pokemon(name, index)
 {
-    cout << this->name << " Pokemon tipo fogo" << endl;
 }
 
 void FirePokemon::evolve()

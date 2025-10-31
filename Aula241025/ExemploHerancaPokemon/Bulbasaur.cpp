@@ -1,21 +1,21 @@
-#include "Charmander.h"
+#include "Bulbasaur.h"
 
-Charmander::Charmander(string name, int index) : FirePokemon(name, index)
+Bulbasaur::Bulbasaur(string name, int index) : GrassPokemon(name, index)
 {
     cout << "Um pokemon " << this->name << " foi criado!" << endl;
 }
 
-void Charmander::evolve()
+void Bulbasaur::evolve()
 {
     string previousName = this->name;
 
     if (statusEvolution == 0) {
-        name = "Charmeleon";
+        name = "Ivysaur";
         statusEvolution = 1;
         index++;
     }
     else if (statusEvolution == 1) {
-        name = "Charizard";
+        name = "Venusaur";
         statusEvolution = 2;
         index++;
     }
